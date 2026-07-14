@@ -187,6 +187,73 @@ export const projects: Project[] = [
     images: [asset("assets/projects/qr-attendance-system/scan.webp")],
   },
   {
+    slug: "ml-image-classifier",
+    name: "ML Image Classifier",
+    category: "IA · Computer Vision",
+    status: "IA / ML",
+
+    summary:
+      "Clasificador de imágenes utilizando modelos de Machine Learning para identificar automáticamente distintas categorías.",
+
+    problem:
+      "Construir un pipeline de clasificación que permita entrenar, evaluar y utilizar modelos capaces de reconocer imágenes de distintas clases.",
+
+    architecture:
+      "Pipeline de preprocesamiento → entrenamiento del modelo → evaluación mediante métricas de clasificación → inferencia sobre nuevas imágenes.",
+
+    learnings:
+      "Preparación de datasets, entrenamiento supervisado, evaluación de modelos y aplicación práctica de técnicas de visión computacional.",
+
+    tech: [
+      "Python",
+      "Machine Learning",
+      "Computer Vision",
+      "NumPy",
+      "FastApi",
+      "Tailwind"
+    ],
+
+    repoUrl:
+      "https://github.com/cruch5357/ml-image-classifier",
+
+    images: [
+      asset("assets/projects/ml-image-classifier/demo.webp"),
+    ],
+  },
+  {
+    slug: "vuln-api-pentesting-lab",
+    name: "Vuln API Pentesting Lab",
+    category: "Ciberseguridad · Backend",
+    status: "Security",
+    summary:
+      "Laboratorio de APIs vulnerables diseñado para practicar pentesting sobre vulnerabilidades comunes de OWASP API Security.",
+
+    problem:
+      "Disponer de un entorno seguro para aprender técnicas ofensivas sobre APIs REST sin comprometer sistemas reales.",
+
+    architecture:
+      "API desarrollada en Python con endpoints deliberadamente vulnerables. Permite ejecutar pruebas de autenticación, autorización, inyección, exposición de información y manipulación de recursos utilizando herramientas de pentesting.",
+
+    learnings:
+      "Comprensión práctica de OWASP API Security Top 10, análisis de vulnerabilidades, explotación controlada y fortalecimiento de aplicaciones backend.",
+
+    tech: [
+      "Python",
+      "FastAPI",
+      "REST API",
+      "OWASP API Security",
+      "JWT",
+      "Pentesting"
+    ],
+
+    repoUrl:
+      "https://github.com/cruch5357/vuln-api-pentesting-lab",
+
+    images: [
+      asset("assets/projects/vuln-api-pentesting-lab/demo.webp"),
+    ],
+  },
+  {
     slug: "caelestis-web-platform",
     name: "Caelestis",
     category: "Full-Stack Web",

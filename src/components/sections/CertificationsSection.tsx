@@ -91,16 +91,16 @@ export function CertificationsSection() {
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.2 }}
-                  className="fixed inset-0 z-40 bg-black/70 backdrop-blur-sm"
+                  className="fixed left-1/2 top-1/2 z-50 w-[calc(100%-2rem)] max-w-3xl max-h-[85vh] -translate-x-1/2 -translate-y-1/2 overflow-y-auto rounded-2xl border border-stroke-2 bg-[#0b0d13]/95 shadow-[0_40px_120px_-30px_rgba(0,0,0,0.8)] backdrop-blur-2xl"
                 />
               </Dialog.Overlay>
               <Dialog.Content asChild forceMount aria-describedby={undefined}>
                 <motion.div
-                  initial={{ opacity: 0, scale: 0.96 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.97 }}
+                  initial={{ opacity: 0, scale: 0.96, x: "-50%", y: "-50%" }}
+                  animate={{ opacity: 1, scale: 1, x: "-50%", y: "-50%" }}
+                  exit={{ opacity: 0, scale: 0.97, x: "-50%", y: "-50%" }}
                   transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-                  className="fixed left-1/2 top-1/2 z-50 w-[calc(100%-2rem)] max-w-3xl -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-2xl border border-stroke-2 bg-[#0b0d13]/95 shadow-[0_40px_120px_-30px_rgba(0,0,0,0.8)] backdrop-blur-2xl"
+                  className="fixed left-1/2 top-1/2 z-50 w-[calc(100%-2rem)] max-w-3xl max-h-[85vh] overflow-y-auto rounded-2xl border border-stroke-2 bg-[#0b0d13]/95 shadow-[0_40px_120px_-30px_rgba(0,0,0,0.8)] backdrop-blur-2xl"
                 >
                   <div className="flex items-center justify-between border-b border-stroke px-5 py-4">
                     <Dialog.Title className="font-display text-base font-medium">

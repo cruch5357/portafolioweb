@@ -64,11 +64,15 @@ export function ProjectsSection() {
               </div>
               <div className="flex flex-1 flex-col p-5">
                 <div className="flex items-start justify-between gap-2">
-                  <h4 className="font-display text-base font-semibold">{p.name}</h4>
-                  <ArrowUpRight className="h-4 w-4 shrink-0 text-ink-3 transition-colors group-hover:text-ink" />
+                  {/* Título en blanco/gris muy claro */}
+                  <h4 className="font-display text-base font-semibold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">{p.name}</h4>
+                  {/* Ícono de la flecha combinando con los textos */}
+                  <ArrowUpRight className="h-4 w-4 shrink-0 text-slate-400 transition-colors group-hover:text-white" />
                 </div>
-                <p className="mt-1.5 flex-1 text-sm text-ink-2">{p.summary}</p>
-                <div className="mt-3 font-mono text-[11px] text-ink-3">{p.category}</div>
+                {/* Descripción del proyecto en gris claro para lectura suave */}
+                <p className="mt-1.5 flex-1 text-sm text-slate-300">{p.summary}</p>
+                {/* Categoría en gris un poco más oscuro */}
+                <div className="mt-3 font-mono text-[11px] text-slate-400">{p.category}</div>
               </div>
             </article>
           </motion.button>

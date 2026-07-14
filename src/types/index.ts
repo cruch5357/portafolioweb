@@ -22,7 +22,7 @@ export interface TechGroup {
   items: Tech[];
 }
 
-export type ProjectStatus = "IA / ML" | "Full-Stack" | "Activo" | "Académico" | "Redes & Seguridad";
+export type ProjectStatus = "IA / ML" | "Full-Stack" | "Vivo" | "Académico" | "Redes & Seguridad";
 
 export interface Project {
   slug: string;

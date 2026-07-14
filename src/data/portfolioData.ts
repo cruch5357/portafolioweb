@@ -156,7 +156,7 @@ export const projects: Project[] = [
     slug: "passenger-monitoring-system",
     name: "MoniCarro",
     category: "Data · Mobile",
-    status: "Activo",
+    status: "Vivo",
     summary:
       "Monitoreo del flujo de pasajeros por estación con detección de anomalías, orientado al Metro de Santiago.",
     problem:
@@ -173,7 +173,7 @@ export const projects: Project[] = [
     slug: "qr-attendance-system",
     name: "RegistrApp",
     category: "Mobile · Cloud",
-    status: "Activo",
+    status: "Vivo",
     summary:
       "App móvil de registro de asistencia por códigos QR con almacenamiento centralizado en la nube.",
     problem:

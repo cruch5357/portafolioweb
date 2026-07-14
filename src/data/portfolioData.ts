@@ -224,7 +224,7 @@ export const projects: Project[] = [
     slug: "vuln-api-pentesting-lab",
     name: "Vuln API Pentesting Lab",
     category: "Ciberseguridad · Backend",
-    status: "Security",
+    status: "Redes & Seguridad",
     summary:
       "Laboratorio de APIs vulnerables diseñado para practicar pentesting sobre vulnerabilidades comunes de OWASP API Security.",
 

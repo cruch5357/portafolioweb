@@ -15,6 +15,7 @@ const ProjectModal = lazy(() =>
 const statusPill: Record<string, string> = {
   "IA / ML": "border-[#8B5CF6]/30 bg-[#8B5CF6]/[0.14] text-[#C4B5FD]",
   "Full-Stack": "border-stroke-2 bg-white/[0.06] text-ink-2",
+  "Redes & Seguridad": "border-red-500/20 bg-red-500/10 text-red-400",
   Activo: "border-emerald-brand/25 bg-emerald-brand/[0.1] text-emerald-brand",
   Académico: "border-stroke-2 bg-white/[0.06] text-ink-2",
 };

@@ -41,7 +41,7 @@ export const profile: Profile = {
   github: "https://github.com/cruch5357",
   cv: asset("assets/cv/CV_AlonsoCruz.pdf"),
   photo: asset("assets/profile/fotoperfil.webp"),
-  availability: "Disponible para Práctica Profesional",
+  availability: "Realizando mi Práctica Profesional!",
   bio: "Estudiante de Ingeniería en Informática con una profunda pasión por el desarrollo de software, la Inteligencia Artificial, el Machine Learning y la Ciencia de Datos. He liderado y colaborado en proyectos técnicos complejos, combinando el desarrollo Full-Stack con la resolución de problemas mediante modelos inteligentes. Sumo una sólida base en liderazgo y trabajo en equipo, forjada en más de 7 años de Scouts y en la directiva del Centro de Alumnos.",
 };
 
@@ -319,12 +319,21 @@ export const certifications: Certification[] = [
     image: asset("assets/certs/python-essentials-1.webp"),
     status: "Obtenida",
   },
-  {
-    name: "Scrum Foundation (SFPC)",
+  /* {
+    name: "",
     institution: "CertiProf",
     date: "Próximamente",
     competencies: ["Marco Scrum", "Roles ágiles", "Artefactos", "Mejora continua"],
     status: "Próximamente",
+  }, */
+
+  {
+    name: "Scrum Foundation (SFPC)",
+    institution: "Certiprof",
+    date: "2026",
+    competencies: ["Marco Scrum", "Roles ágiles", "Artefactos", "Mejora continua"],
+    image: asset("assets/certs/scrum.webp"),
+    status: "Obtenida",
   },
 ];
 
